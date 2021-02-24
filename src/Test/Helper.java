@@ -12,7 +12,7 @@ public class Helper {
         //An Object!!
         ArrayList< NetworkDevice> networkDeviceList = new ArrayList<NetworkDevice>();
         Path pathToFile = Paths.get(filename);
-
+ //Sc
         try (Scanner scan = new Scanner(pathToFile)) {
             String row;
             scan.next();
